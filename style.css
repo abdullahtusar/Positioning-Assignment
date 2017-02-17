@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 100%;
+	height: 1700px;
+}
+.header{
+	background: url(http://www.planwallpaper.com/static/images/anime-wallpaper-hd-12_Iwag97X.jpg);
+	height: 100vh;
+	width: 100%;
+}
+.box{
+	width: 40%;
+	height: 280px;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box h1{
+	color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Caveat Brush', cursive;
+	font-family: 'Lobster', cursive;
+}
+.box p{
+	text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Caveat Brush', cursive;
+}
+#btn1{
+	position: absolute;
+    left: 45%;
+    margin-top: 35px;
+    background: #0a758e;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.6s all;
+}
+#btn1:hover {
+	transform: scale(1.2);
+	background: #e8e8e8;
+	color: #0a758e;
+}
+.slider{
+	height: 800px;
+	background:#13485d;
+	width: 100%;
+	position: relative;
+}
+.box1{
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    right: 66%;
+    bottom: 6%;
+    background: #2f5586;
+    transition: 0.4s all;
+}
+.box1:hover{
+	transform: scale(1.1);
+}
+.box2{
+    position: absolute;
+    top: 9%;
+    left: 36%;
+    right: 35%;
+    bottom: 6%;
+    background: #2f5586;
+    transition: 0.4s all;
+}
+.box2:hover{
+	transform: scale(1.1);
+}
+.box3{
+    position: absolute;
+    top: 9%;
+    left: 67%;
+    right: 5%;
+    bottom: 6%;
+	background: #2f5586;
+	transition: 0.4s all;
+}
+.box3:hover{
+	transform: scale(1.1);
+}
+.btn{
+    background: url(https://s-media-cache-ak0.pinimg.com/236x/0d/40/97/0d409777a73307e45688d9b16497e546.jpg);
+    height: 55%;
+    width: 45%;
+    border-radius: 50%;
+    margin-left: 152px;
+    margin-top: 21px;
+}
+#bh{
+	color: white;
+    text-align: center;
+    font-size: 57px;
+    margin-bottom: 0;
+    font-family: 'Caveat Brush', cursive;
+	font-family: 'Lobster', cursive;
+}
+#bp{
+	color: rgba(216, 199, 199, 0.74);
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Caveat Brush', cursive;
+}
